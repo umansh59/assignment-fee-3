@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 10px;
+}
+.main{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    width: 900px;
+    
+}
+.product{
+    align-items: center;
+    border:2px solid orange;
+    box-shadow: 3px 3px 3px 3px yellow;
+    width: fit-content;
+    padding: 20px;
+    flex-basis: 20% 
+}
+.prod-img{
+    height: 65%;
+    width: 90%;
+}
+h3{
+margin: 0px;
+}
